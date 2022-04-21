@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.navbar-links {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+  margin: 0 1rem;
+  font-size: 0.85rem;
+}
+
+.navbar-container {
+  background-color: rgba(51, 51, 51, 0.99);
+  text-align: center;
+  padding: 0.8rem;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.navbar-links:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.holiday-sales {
+  background-color: rgb(227, 65, 64);
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.holiday-sales p {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  word-spacing: 0.08rem;
+}
+
+.holiday-sales a:hover {
+  text-decoration: underline;
+}
+
+.shop-gifts-container {
+  background-color: rgb(238, 239, 254);
+  text-align: center;
+  padding: 2rem;
+}
+
+.gift-text {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.apple-gift-icon {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.gift-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.gift-text h2 {
+  color: rgb(0, 100, 255);
+}
+
+.gift-text h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.gifts-image {
+  display: inline-block;
+}
+
+.wrapping-link {
+  color: black;
+}
+
+.iphone13-pro {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.iphone13-pro h1 {
+  font-size: 3.55rem;
+}
+
+.iphone13-pro h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.iphone13-pro-links {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  color: rgb(0, 100, 255);
+}
+
+.iphone13-pro-image {
+  width: 98.8vw;
+  height: 624px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/hero_iphone_13pro__dhnsegysa42u_medium.jpg);
+}
+
+.iphone13-pro-container {
+  padding: 0;
+  margin: 0;
+}
+
+.iphone13 {
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+
+.iphone13-links {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  color: rgb(0, 100, 255);
+}
+
+.iphone13 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.iphone13-image {
+  width: 98.8vw;
+  height: 624px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/hero_iphone_13__f194u1rdooeq_medium.jpg);
+}
+
+.iphone13 h1 {
+  font-size: 3.55rem;
+  padding-top: 2rem;
+}
+
+.iphone13-airpods-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.iphone13-l,
+.airpods-r,
+.homepod-l,
+.watch-r,
+.card-l,
+.cartoon-r {
+  text-align: center;
+  height: 38rem;
+}
+
+.iphone13-l-links,
+.airpods-r-links,
+.homepod-l-links,
+.watch-r-links,
+.card-l-links,
+.cartoon-r-links {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  color: rgb(0, 100, 255);
+}
+
+.iphone13-l-image,
+.airpods-r-image,
+.homepod-l-image,
+.watch-r-image,
+.card-l-image,
+.cartoon-r-image {
+  height: inherit;
+}
+
+.iphone13-l-image {
+  background-repeat: no-repeat;
+  background-image: url(../images/tile_iphone_13__d9w82q7fwceq_large.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.airpods-r-image {
+  background-repeat: no-repeat;
+  background-image: url(../images/tile_airpods__fuv6vgn42y2q_medium.jpg);
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+}
+
+.homepod-l-image {
+  background-repeat: no-repeat;
+  background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_medium.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 3rem;
+}
+
+.watch-r-image {
+  background-color: rgb(245, 245, 247);
+  background-repeat: no-repeat;
+  background-image: url(../images/tile_watch__e9n11b6m6yq2_medium.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 3rem;
+}
+
+.card-l-image {
+  background-repeat: no-repeat;
+  background-image: url(../images/tile__cauwwcyyn9hy_medium.jpg);
+  background-position: center;
+  background-size: contain;
+  padding-top: 1.5rem;
+}
+
+.cartoon-r-image {
+  background-repeat: no-repeat;
+  background-image: url(../images/tile_harriet__b4qqaek9wjqq_medium.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 1.5rem;
+  margin: 0;
+  display: flex;
+  text-align: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.cartoon-r-container img {
+  display: block;
+}
+
+.cartoon-r-container {
+  height: 20rem;
+}
+
+.stream-now {
+  position: absolute;
+  bottom: 1rem;
+  left: 40%;
+}
+
+.stream-now a {
+  color: white;
+}
+
+.stream-now a:hover {
+  text-decoration: underline;
+}
+
+.footer-container {
+  background-color: rgb(245, 245, 245);
+}
+
+.footer {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.extra-info p {
+  margin-bottom: 0.7rem;
+}
+
+.footer-links-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 1rem;
+  grid-template-rows: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-links-container li {
+  list-style-type: none;
+  margin-bottom: 0.7rem;
+}
+
+.list-item-head {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.list-item {
+  font-size: 0.85rem;
+  color: rgb(100, 100, 100);
+}
+
+.heading {
+  max-height: auto;
+}
+
+@media screen and (max-width:1000px){
+  .footer-container {
+    display: none;
+  }
+  .iphone13-airpods-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+}
